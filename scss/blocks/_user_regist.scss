@@ -1,0 +1,267 @@
+.main__full{
+    margin-top: 160px;
+}
+
+.all__main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.label{
+    font-family: Manrope;
+    font-style: SemiBold;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #fff;
+}
+
+
+// --------- USER_TACK--ONE ----------
+
+
+.user__tack--one{
+    display: flex;
+    align-items: center;
+}
+
+.one__input{
+    padding: 14px 25px;
+    border: 1px solid #fff;
+    border-radius: 174px;
+    background-color: #555;
+    color: #fff;
+    margin-top: 10px;
+    outline: none;
+}
+
+.one_1{
+    width: 393px;
+}
+
+.one_2{
+    width: 288px;
+}
+
+
+// --------- USER_TACK--TWO ----------
+
+
+.user__tack--two{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.two__input{
+    padding: 14px 25px;
+    border: 1px solid #fff;
+    border-radius: 174px;
+    background-color: #555;
+    color: #fff;
+    margin-top: 10px;
+    outline: none;
+    width: 338px;
+}
+
+
+// --------- USER_TACK--THREE ----------
+
+
+.user__tack--three{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.three__select{
+    padding: 12px 25px;
+    border: 1px solid #fff;
+    border-radius: 174px;
+    background-color: #555;
+    color: #fff;
+    margin-top: 10px;
+    outline: none;
+    width: 338px;
+}
+
+.three_1{
+    padding: 12px 25px;
+    margin-right: 30px;
+    width: 287px;
+}
+
+
+// --------- USER_TACK--FOUR ----------
+
+
+.user__tack--four{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.four__input{
+    display: block;
+    width: 711px;
+    height: 168px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: #555;
+    color: #fff;
+    margin-top: 10px;
+    outline: none;
+}
+
+.form__btn{
+    padding: 13px 50px 13px 20px;
+    background-color:#0040DD;
+    border-radius: 20px;
+    border: none;
+    background-image: url("../../images/Vector\ \(1\).svg");
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: 95px 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+// ---------------- Main__right--inner
+
+
+.main__right--inner{
+    margin: -20px 0 0 60px;
+}
+
+
+.main__right--start{
+    display: none;
+}
+
+.right__title{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.right__text{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+
+
+// ----------- RESPONSIVE PART ------------
+
+
+
+@media only screen and (max-width: 992px){
+    
+    .main__full{
+        margin-top: 80px;
+        justify-content: start;
+        
+    }
+    
+    .main__right--start{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main__right--end{
+        display: none;
+    }
+    
+    .header__menu--img{
+        margin-right: 50px;
+    }
+    
+    .label{
+        margin-top: 15px;
+    }
+    
+    
+    // --------- USER_TACK--ONE ----------
+    
+    
+    .user__tack--one{
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 10px;
+    }
+    
+    .one_1{
+        display: block;
+        width: 343px;
+    }
+    
+    .one_2{
+        display: block;
+        width: 343px;
+    }
+    
+    
+    // --------- USER_TACK--TWO ----------
+    
+    
+    .user__tack--two{
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    .two_1{
+        display: block;
+        margin: 0;
+        width: 343px;
+    }
+    
+    .two_2{
+        display: block;
+        margin: 0;
+        width: 343px;
+    }
+    
+    
+    // --------- USER_TACK--THREE ----------
+    
+    .user__tack--three{
+        flex-direction: column;
+    }
+    
+    .three__1{
+        display: block;
+        margin: 0;
+        width: 343px;
+    }
+    
+    .three__2{
+        display: block;
+        margin: 0;
+        width: 343px;
+    }
+    
+    
+    
+    
+    .user__tack--four{
+        display: none;
+        width: 343px;
+    }
+    
+    .form__btn{
+        width: 100%;
+        background-image: url("../../images/Vector.svg");
+        background-position: 300px 12px;
+    }
+    
+}
